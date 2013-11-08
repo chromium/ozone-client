@@ -4,7 +4,7 @@ to permit porting Chromium to a new window system or hardware
 platform while keeping most of the port code outside of the Chromium tree.
 
 This project is a sample ozone platform implementation that makes
-Chromium into a RDP server and a demonstration of how to setup a
+Chromium into a RFB server and a demonstration of how to setup a
 project that augments Chromium.
 
 Getting Started
@@ -34,7 +34,7 @@ examples below assume that `_o` has been set.
 		    }
 		  },
 		  {
-		    "name"  : "src/ozonerdp",
+		    "name"  : "src/ozonerfb",
 		    "url"  : "https://github.com/chromium/ozone-client.git",
 		   },
 		  {
