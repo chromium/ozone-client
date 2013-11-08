@@ -1,7 +1,7 @@
 {
   'targets': [
     {
-      'target_name': 'rdp',
+      'target_name': 'rfb',
       'type': 'static_library',
       'dependencies': [
         '<(DEPTH)/base/base.gyp:base',
@@ -14,8 +14,8 @@
       ],
       'sources': [
         # additional source files for your platform
-        'ozone_platform_rdp.cc',
-        'ozone_platform_rdp.h',
+        'ozone_platform_rfb.cc',
+        'ozone_platform_rfb.h',
       ],
     },
   ]
